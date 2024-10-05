@@ -114,7 +114,9 @@ img{
   max-width: 500px;
 }
 
-
+.wing{
+  padding: 240px 240px 240px 240px ;
+}
 
 #quick-list{
   font-weight: 500;
@@ -162,12 +164,17 @@ img{
 .sponsor-company{
 display: grid;
 grid-template-columns: repeat(5, 1fr);
+
 }
 
 .sponsor-company img{
 filter: grayscale(100%);
 }
-
+/* features section */
+.architects{
+  width: 700px;
+  height: 980px;
+}
 /* responsive first part  */
 @media only screen and (max-width: 576px ) {
   .navbar, 
